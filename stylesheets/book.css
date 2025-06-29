@@ -16,17 +16,16 @@ body {
     background-color: #000000;
     font-family: 'DIN Condensed', Arial, sans-serif;
     min-height: 100vh;
-    overflow-x: hidden; /* Скрываем горизонтальную прокрутку */
+    overflow-x: hidden; 
     position: relative;
 }
 
-/* Контейнер для кнопок - максимально высоко */
 .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%; 
-    padding: 20px 80px 0 80px; /* Минимальный отступ сверху */
+    padding: 20px 80px 0 80px; 
     box-sizing: border-box;
     max-width: 1800px;
     margin: 0 auto;
@@ -65,23 +64,23 @@ body {
 /* Седьмая кнопка - рядом с book1 и под текстом */
 .seven-btn {
     position: absolute;
-    top: 270px; /* Под текстовым блоком */
-    right: 1400px; /* Рядом с book1 */
+    top: 270px; 
+    right: 1400px; 
     z-index: 2;
     width: 250px;
     height: 170px;
 }
 
-/* Текстовый блок - под кнопками слева, сильно увеличенный и растянутый */
+
 #text1 {
     position: absolute;
-    top: 200px; /* Под кнопками */
-    left: 80px; /* С левой стороны */
-    right: 400px; /* Растягиваем почти до правого края, оставляя место для book1 */
-    max-width: 1200px; /* Сильно увеличено для растяжения */
-    color: #E0AAFF; /* Фиолетовый цвет */
+    top: 200px; 
+    left: 80px; 
+    right: 400px; 
+    max-width: 1200px; 
+    color: #E0AAFF; 
     z-index: 2;
-    font-size: 28px; /* Сильно увеличено */
+    font-size: 28px; 
     line-height: 1.6;
     font-weight: normal;
 }
@@ -91,13 +90,13 @@ body {
     padding: 0;
 }
 
-/* Блок book1 - уменьшен и расположен ниже и правее */
+
 #book1 {
     position: absolute;
-    bottom: -200px; /* Расположен ниже (было 120px) */
-    right: 30px; /* Расположен правее (было -200px) */
-    width: 1100px; /* Уменьшено (было 1200px) */
-    height: 900px; /* Уменьшено (было 900px) */
+    bottom: -200px; 
+    right: 30px; 
+    width: 1100px;
+    height: 900px; 
     z-index: 1;
 }
 
@@ -118,26 +117,26 @@ a {
       width: 14vw;
       height: 20vh;
     }
-    /* Седьмая кнопка - рядом с book1 и под текстом */
+  
 .seven-btn {
     position: absolute;
-    top: 270px; /* Под текстовым блоком */
-    left: 60px; /* Адаптировано для ширины 1372px */
+    top: 270px; 
+    left: 60px;
     z-index: 2;
-    width: 200px; /* Уменьшено */
-    height: 140px; /* Уменьшено */
+    width: 200px;
+    height: 140px;
 }
 
-/* Текстовый блок - под кнопками слева, увеличенный и растянутый */
+
 #text1 {
     position: absolute;
-    top: 180px; /* Немного выше для экономии места */
-    left: 60px; /* Немного ближе к краю */
-    right: 280px; /* Оставляем место для book1 и кнопки */
-    max-width: 1000px; /* Адаптировано под ширину экрана */
-    color: #E0AAFF; /* Фиолетовый цвет */
+    top: 180px;
+    left: 60px; 
+    right: 280px;
+    max-width: 1000px;
+    color: #E0AAFF; 
     z-index: 2;
-    font-size: 24px; /* Немного уменьшено */
+    font-size: 24px; 
     line-height: 1.5;
     font-weight: normal;
 }
@@ -147,13 +146,13 @@ a {
     padding: 0;
 }
 
-/* Блок book1 - адаптирован под размеры экрана */
+
 #book1 {
     position: absolute;
-    bottom: -150px; /* Поднято выше для экрана 768px */
-    right: 20px; /* Ближе к краю */
-    width: 860px; /* Значительно уменьшено для экрана 1372px */
-    height: 650px; /* Уменьшено для экрана 768px */
+    bottom: -150px; 
+    right: 20px; 
+    width: 860px; 
+    height: 650px; 
     z-index: 1;
 }
 
@@ -175,26 +174,26 @@ a {
       width: 14vw;
       height: 20vh;
     }
-    /* Седьмая кнопка - рядом с book1 и под текстом */
+   
 .seven-btn {
     position: absolute;
-    top: 270px; /* Под текстовым блоком */
-    left: 60px; /* Адаптировано для ширины 1372px */
+    top: 270px; 
+    left: 60px; 
     z-index: 2;
-    width: 200px; /* Уменьшено */
-    height: 140px; /* Уменьшено */
+    width: 200px;
+    height: 140px;
 }
 
-/* Текстовый блок - под кнопками слева, увеличенный и растянутый */
+
 #text1 {
     position: absolute;
-    top: 180px; /* Немного выше для экономии места */
-    left: 60px; /* Немного ближе к краю */
-    right: 280px; /* Оставляем место для book1 и кнопки */
-    max-width: 1000px; /* Адаптировано под ширину экрана */
-    color: #E0AAFF; /* Фиолетовый цвет */
+    top: 180px;
+    left: 60px; 
+    right: 280px; 
+    max-width: 1000px; 
+    color: #E0AAFF; 
     z-index: 2;
-    font-size: 24px; /* Немного уменьшено */
+    font-size: 24px; 
     line-height: 1.5;
     font-weight: normal;
 }
@@ -204,13 +203,13 @@ a {
     padding: 0;
 }
 
-/* Блок book1 - адаптирован под размеры экрана */
+
 #book1 {
     position: absolute;
-    bottom: -150px; /* Поднято выше для экрана 768px */
-    right: 20px; /* Ближе к краю */
-    width: 860px; /* Значительно уменьшено для экрана 1372px */
-    height: 650px; /* Уменьшено для экрана 768px */
+    bottom: -150px;
+    right: 20px; 
+    width: 860px;
+    height: 650px;
     z-index: 1;
 }
 
@@ -220,7 +219,7 @@ a {
     object-fit: contain;
 }
 
-/* Убираем стандартные стили для ссылок */
+
 a {
     text-decoration: none;
     display: block;
@@ -233,26 +232,26 @@ a {
       width: 14vw;
       height: 20vh;
     }
-     /* Седьмая кнопка - рядом с book1 и под текстом */
+     
 .seven-btn {
     position: absolute;
-    top: 270px; /* Под текстовым блоком */
-    left: 60px; /* Адаптировано для ширины 1372px */
+    top: 270px; 
+    left: 60px; 
     z-index: 2;
-    width: 200px; /* Уменьшено */
-    height: 140px; /* Уменьшено */
+    width: 200px; 
+    height: 140px; 
 }
 
-/* Текстовый блок - под кнопками слева, увеличенный и растянутый */
+
 #text1 {
     position: absolute;
-    top: 180px; /* Немного выше для экономии места */
-    left: 60px; /* Немного ближе к краю */
-    right: 280px; /* Оставляем место для book1 и кнопки */
-    max-width: 1000px; /* Адаптировано под ширину экрана */
-    color: hsl(278, 100%, 83%); /* Фиолетовый цвет */
+    top: 180px;
+    left: 60px; 
+    right: 280px;
+    max-width: 1000px; 
+    color: hsl(278, 100%, 83%); 
     z-index: 2;
-    font-size: 20px; /* Немного уменьшено */
+    font-size: 20px; 
     line-height: 1.5;
     font-weight: normal;
 }
@@ -262,14 +261,14 @@ a {
     padding: 0;
 }
 
-/* Блок book1 - адаптирован под размеры экрана */
+
 #book1 {
     position: absolute;
     top: 350px;
-    bottom: -150px; /* Поднято выше для экрана 768px */
-    right: 20px; /* Ближе к краю */
-    width: 860px; /* Значительно уменьшено для экрана 1372px */
-    height: 650px; /* Уменьшено для экрана 768px */
+    bottom: -150px; 
+    right: 20px; 
+    width: 860px;
+    height: 650px; 
     z-index: 1;
 }
 
@@ -279,7 +278,7 @@ a {
     object-fit: contain;
 }
 
-/* Убираем стандартные стили для ссылок */
+
 a {
     text-decoration: none;
     display: block;
@@ -294,7 +293,7 @@ a {
         background-color: #000000;
         font-family: 'DIN Condensed', Arial, sans-serif;
         min-height: 60vh;
-        overflow-x: hidden; /* Скрываем горизонтальную прокрутку */
+        overflow-x: hidden; 
         position: relative;
     }
 
@@ -334,26 +333,26 @@ a {
       border-radius: 8px;
     }
 
-    /* Седьмая кнопка - рядом с book1 и под текстом */
+ 
 .seven-btn {
     position: absolute;
-    top: 130px; /* Под текстовым блоком */
-    left: 20px; /* Адаптировано для ширины 1372px */
+    top: 130px;
+    left: 20px; 
     z-index: 2;
-    width: 130px; /* Уменьшено */
-    height: 110px; /* Уменьшено */
+    width: 130px;
+    height: 110px; 
 }
 
-    /* Текстовый блок - под кнопками слева, увеличенный и растянутый */
+   
 #text1 {
     position: absolute;
-    top: 100px; /* Немного выше для экономии места */
-    left: 20px; /* Немного ближе к краю */
-    right: 280px; /* Оставляем место для book1 и кнопки */
-    width: 405px; /* Адаптировано под ширину экрана */
-    color: #E0AAFF; /* Фиолетовый цвет */
+    top: 100px;
+    left: 20px;
+    right: 280px;
+    width: 405px; 
+    color: #E0AAFF; 
     z-index: 2;
-    font-size: 15px; /* Немного уменьшено */
+    font-size: 15px;
     line-height: 1.5;
     font-weight: normal;
 }
@@ -363,13 +362,13 @@ a {
     padding: 0;
 }
 
-/* Блок book1 - адаптирован под размеры экрана */
+/
 #book1 {
     position: absolute;
-    bottom: -280px; /* Поднято выше для экрана 768px */
-    right: -350px; /* Ближе к краю */
-    width: 800px; /* Значительно уменьшено для экрана 1372px */
-    height: 600px; /* Уменьшено для экрана 768px */
+    bottom: -280px; 
+    right: -350px; 
+    width: 800px; 
+    height: 600px;
     z-index: 1;
 }
 
@@ -379,7 +378,7 @@ a {
     object-fit: contain;
 }
 
-/* Убираем стандартные стили для ссылок */
+
 a {
     text-decoration: none;
     display: block;
