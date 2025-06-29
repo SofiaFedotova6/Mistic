@@ -97,7 +97,7 @@
   #Dragon1:hover img[alt="info1"], #Dragon2:hover img[alt="info2"], #Dragon3:hover img[alt="info3"],
   #Eg1:hover img[alt="Temp1"], #Eg2:hover img[alt="Temp2"], #Eg3:hover img[alt="Temp3"] { opacity: 1; }
   
-  /* ----- Footer */
+  /* Footer */
   .footer-container {
     display: flex;
     justify-content: space-between;
@@ -190,7 +190,7 @@
     opacity: 0.8;
   }
   
-  /* ----- Адаптив ----- */
+  /* Адаптив */
   /* 1372×768 */
   @media screen and (max-width: 1372px) and (max-height: 768px) {
     .first-btn, .second-btn, .third-btn, .fifth-btn, .six-btn {
