@@ -242,7 +242,7 @@
     #Eg1, #Eg2, #Eg3 { right: 5.8vw; }
   }
   
-  /* Мобильные 430px и 414px */
+  /* Мобильные 414px */
   @media screen and (max-width: 414px) and (max-height: 896px) {
     .container {
       flex-direction: row;
